@@ -1,0 +1,17 @@
+# Core Web Framework
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# Data Validation
+pydantic==2.9.2
+
+# LangChain and Google Generative AI
+langchain==0.3.3
+langchain-google-genai==1.0.4
+google-generativeai==0.7.2
+
+# Optional (for structured responses, if needed)
+typing-extensions>=4.8.0
+
+# Utilities
+python-dotenv==1.0.1
