@@ -64,10 +64,10 @@ Set your Gemini / Google Generative API key.
 This project expects the API key to be provided in request bodies (the api_key field). However, some parts of the code also call genai.configure(api_key=...) internally. For convenience during development you can set an environment variable (optional):
 
 # Linux / macOS
-export GEMINI_API_KEY="AIzaSyD0QTT0w8ww95zGR0GUBginS0aEw7AnHuo"
+export GEMINI_API_KEY=""
 
 # Windows (PowerShell)
-$env:GEMINI_API_KEY="AIzaSyD0QTT0w8ww95zGR0GUBginS0aEw7AnHuo"
+$env:GEMINI_API_KEY=""
 
 
 Note: The endpoints also accept api_key in the JSON body (this is required by the pydantic models in main.py). Supplying it in the request body is the straightforward approach.
